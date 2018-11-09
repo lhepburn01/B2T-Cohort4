@@ -17,8 +17,6 @@ function changeBoxColor(){
 	
 	if(toggleButton.value === 'ON' && myBox.style.backgroundColor === 'green'){
 		myBox.style.backgroundColor = 'red';
-/*	}else if (toggleButton === 'ON' && myBox.style.backgroundColor = 'green'){
-		myBox.style.backgroundColor = 'red'; */
 	}else{
 	 myBox.style.backgroundColor = 'green';
 	}
