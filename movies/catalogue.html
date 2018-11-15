@@ -22,15 +22,23 @@
 
 		<input id="title" type="text" placeholder="Enter Movie Title"/>
 		<input id="director" type="text" placeholder="Enter Director" />
-		<input id="year" type="number" placeholder="Release Year" />
-		<input id="status" type="text" placeholder="Enter Shown Status" />
+		<input id="year" type="number" placeholder="Enter Release Year" />
+			<select id="status">
+		    	<option value="">--Has movie been shown?--</option>
+		   		<option value="yes">Yes</option>
+		    	<option value="no">No</option>
+			</select>    	
+		<input id="cover" type="text" placeholder="Enter Poster Image"/>
 		<input type="button" value="Add Movie" onclick="addMovie()" />
 				
 		<div id="display"></div>
 		
 		<!-- ------------------------------------------------- -->
 		<hr />		
-			
+				<div class="row">
+					<div class="col">
+					<h4 id="quantityDisplay">Quantity: 0</h4>
+				</div>		
 		
 		<script src="script.js"></script>
 	</body>
